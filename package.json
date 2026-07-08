@@ -1,0 +1,9 @@
+{
+  "name": "ai-placement-agent-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm.cmd install --prefix backend && npm.cmd install --prefix frontend && npm.cmd install concurrently --save-dev",
+    "dev": "concurrently \"npm.cmd run dev --prefix backend\" \"npm.cmd run dev --prefix frontend\""
+  }
+}
