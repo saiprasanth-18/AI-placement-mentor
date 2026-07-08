@@ -1,0 +1,159 @@
+{
+  "stats": {
+    "dsaSolvedCount": 0,
+    "interviewsCompletedCount": 0,
+    "averageInterviewScore": 0,
+    "quizzesTakenCount": 0,
+    "averageQuizScore": 0,
+    "latestResumeScore": 0,
+    "solvedDsaIds": [],
+    "recentActivity": [
+      {
+        "id": "act-1",
+        "timestamp": "2026-07-07T14:00:00.000Z",
+        "type": "system",
+        "description": "Welcome to your AI Placement Preparation Assistant! Start by adding your Gemini API key in Settings or exploring the DSA section."
+      }
+    ]
+  },
+  "dsaProblems": [
+    {
+      "id": "dsa-1",
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.",
+      "constraints": "• 2 <= nums.length <= 10^4\n• -10^9 <= nums[i] <= 10^9\n• -10^9 <= target <= 10^9\n• Only one valid answer exists.",
+      "input": "nums = [2,7,11,15], target = 9",
+      "output": "[0,1]",
+      "initialCode": {
+        "javascript": "function twoSum(nums, target) {\n    // Write your code here\n    \n}",
+        "python": "def twoSum(nums, target):\n    # Write your code here\n    pass",
+        "cpp": "#include <vector>\n\nclass Solution {\npublic:\n    std::vector<int> twoSum(std::vector<int>& nums, int target) {\n        // Write your code here\n        \n    }\n};",
+        "java": "import java.util.*;\n\nclass Solution {\n    public int[] twoSum(int[] nums, int target) {\n        // Write your code here\n        return new int[0];\n    }\n}"
+      },
+      "testCases": [
+        { "input": "[2,7,11,15], 9", "expected": "[0,1]" },
+        { "input": "[3,2,4], 6", "expected": "[1,2]" },
+        { "input": "[3,3], 6", "expected": "[0,1]" }
+      ]
+    },
+    {
+      "id": "dsa-2",
+      "title": "Reverse a String",
+      "difficulty": "Easy",
+      "category": "Strings",
+      "description": "Write a function that reverses a string. The input string is given as an array of characters `s`.\n\nYou must do this by modifying the input array in-place with O(1) extra memory.",
+      "constraints": "• 1 <= s.length <= 10^5\n• s[i] is a printable ascii character.",
+      "input": "s = [\"h\",\"e\",\"l\",\"l\",\"o\"]",
+      "output": "[\"o\",\"l\",\"l\",\"e\",\"h\"]",
+      "initialCode": {
+        "javascript": "function reverseString(s) {\n    // Write your code here\n    \n}",
+        "python": "def reverseString(s):\n    # Write your code here\n    pass",
+        "cpp": "#include <vector>\n\nclass Solution {\npublic:\n    void reverseString(std::vector<char>& s) {\n        // Write your code here\n        \n    }\n};",
+        "java": "class Solution {\n    public void reverseString(char[] s) {\n        // Write your code here\n        \n    }\n}"
+      },
+      "testCases": [
+        { "input": "[\"h\",\"e\",\"l\",\"l\",\"o\"]", "expected": "[\"o\",\"l\",\"l\",\"e\",\"h\"]" },
+        { "input": "[\"H\",\"a\",\"n\",\"n\",\"a\",\"h\"]", "expected": "[\"h\",\"a\",\"n\",\"n\",\"a\",\"H\"]" }
+      ]
+    },
+    {
+      "id": "dsa-3",
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "category": "Strings",
+      "description": "Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.\n\nAn input string is valid if:\n1. Open brackets must be closed by the same type of brackets.\n2. Open brackets must be closed in the correct order.\n3. Every close bracket has a corresponding open bracket of the same type.",
+      "constraints": "• 1 <= s.length <= 10^4\n• s consists of parentheses only '()[]{}'.",
+      "input": "s = \"()[]{}\"",
+      "output": "true",
+      "initialCode": {
+        "javascript": "function isValid(s) {\n    // Write your code here\n    \n}",
+        "python": "def isValid(s):\n    # Write your code here\n    pass",
+        "cpp": "#include <string>\n\nclass Solution {\npublic:\n    bool isValid(std::string s) {\n        // Write your code here\n        \n    }\n};",
+        "java": "class Solution {\n    public boolean isValid(String s) {\n        // Write your code here\n        return false;\n    }\n}"
+      },
+      "testCases": [
+        { "input": "\"()\"", "expected": "true" },
+        { "input": "\"()[]{}\"", "expected": "true" },
+        { "input": "\"(]\"", "expected": "false" }
+      ]
+    },
+    {
+      "id": "dsa-4",
+      "title": "Fibonacci Number",
+      "difficulty": "Easy",
+      "category": "Dynamic Programming",
+      "description": "The Fibonacci numbers, commonly denoted `F(n)` form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.\n\nF(0) = 0, F(1) = 1\nF(n) = F(n - 1) + F(n - 2), for n > 1.\n\nGiven `n`, calculate `F(n)`.",
+      "constraints": "• 0 <= n <= 30",
+      "input": "n = 4",
+      "output": "3",
+      "initialCode": {
+        "javascript": "function fib(n) {\n    // Write your code here\n    \n}",
+        "python": "def fib(n):\n    # Write your code here\n    pass",
+        "cpp": "class Solution {\npublic:\n    int fib(int n) {\n        // Write your code here\n        \n    }\n};",
+        "java": "class Solution {\n    public int fib(int n) {\n        // Write your code here\n        return 0;\n    }\n}"
+      },
+      "testCases": [
+        { "input": "2", "expected": "1" },
+        { "input": "3", "expected": "2" },
+        { "input": "4", "expected": "3" }
+      ]
+    }
+  ],
+  "aptitudeQuizzes": {
+    "quantitative": [
+      {
+        "id": "quant-1",
+        "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+        "options": ["120 metres", "150 metres", "324 metres", "180 metres"],
+        "correctAnswer": 1,
+        "explanation": "Speed = 60 km/hr = 60 * (5/18) m/s = 50/3 m/s.\nTime taken = 9 seconds.\nLength of the train = Speed * Time = (50/3) * 9 = 150 metres."
+      },
+      {
+        "id": "quant-2",
+        "question": "A and B can do a piece of work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A alone finish the work?",
+        "options": ["30 days", "24 days", "40 days", "20 days"],
+        "correctAnswer": 0,
+        "explanation": "(A+B)'s 1 day work = 1/12\n(B+C)'s 1 day work = 1/15\n(C+A)'s 1 day work = 1/20\nAdding these: 2(A+B+C)'s 1 day work = 1/12 + 1/15 + 1/20 = (5+4+3)/60 = 12/60 = 1/5\n(A+B+C)'s 1 day work = 1/10.\nA's 1 day work = (A+B+C)'s 1 day work - (B+C)'s 1 day work = 1/10 - 1/15 = (3-2)/30 = 1/30.\nHence, A alone can finish the work in 30 days."
+      }
+    ],
+    "logical": [
+      {
+        "id": "logic-1",
+        "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+        "options": ["(1/3)", "1/8", "2/8", "1/16"],
+        "correctAnswer": 1,
+        "explanation": "This is a simple division series. Each number is one-half of the previous number.\nThe next term is (1/4) / 2 = 1/8."
+      },
+      {
+        "id": "logic-2",
+        "question": "If in a certain language, CHARCOAL is coded as 45164913 and MORAL is coded as 29613, how is ALLY coded in that language?",
+        "options": ["1396", "1339", "1336", "1332"],
+        "correctAnswer": 2,
+        "explanation": "Matching individual letters to numbers:\nC=4, H=5, A=1, R=6, O=9, L=3, M=2, Y=6 (Wait, from the prompt choices: A=1, L=3, L=3, Y=6 is 1336. Let's see: L matches to 3, A matches to 1, Y matches to 6. Thus, ALLY is 1336)."
+      }
+    ],
+    "verbal": [
+      {
+        "id": "verbal-1",
+        "question": "Choose the word which is closest in meaning (synonym) to: 'ADVERSITY'",
+        "options": ["Chance", "Capacity", "Misfortune", "Joy"],
+        "correctAnswer": 2,
+        "explanation": "Adversity refers to a state or instance of serious or continued difficulty or misfortune. Therefore, 'Misfortune' is the synonym."
+      },
+      {
+        "id": "verbal-2",
+        "question": "Identify the grammatically correct sentence:",
+        "options": [
+          "Everyone of the students have completed their assignments.",
+          "Every one of the students has completed his or her assignment.",
+          "Everyone of the student has completed their assignment.",
+          "Every student have completed his assignment."
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Every one' is singular and takes a singular verb ('has') and singular pronoun ('his or her')."
+      }
+    ]
+  }
+}
